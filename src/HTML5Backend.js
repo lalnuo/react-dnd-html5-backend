@@ -343,7 +343,7 @@ export default class HTML5Backend {
       return;
     } else {
       // If by this time no drag source reacted, tell browser not to drag.
-      e.preventDefault();
+      // e.preventDefault();
     }
   }
 
